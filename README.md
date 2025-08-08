@@ -1,12 +1,46 @@
-# React + Vite
+#  ShoppyGlobe E-Commerce React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive e-commerce web application built with React. It features product browsing, detailed product views, a shopping cart with Redux state management, search functionality, routing, and performance optimizations.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Component-based architecture with reusable components.
+- Data fetching with `useEffect` and custom hooks.
+- State management using Redux for cart operations.
+- Routing with React Router for navigation between pages.
+- Search functionality to filter products.
+- Lazy loading and code splitting for performance.
+- Responsive design for different screen sizes.
+- Error handling for data fetch failures.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Technologies
+- **React** (v18+)
+- **Redux** (Redux Toolkit)
+- **React Router DOM**
+- **Axios** (for data fetching, optional)
+- **CSS** (for styling)
+- **React.lazy** & **Suspense** (for code splitting)
+- **ES6+ JavaScript**
+
+---
+### Running Application
+- npm install
+- npm run dev
+
+---
+### Prerequisites
+
+- Node.js (version 14 or above)
+- npm or yarn package manager
+
+  ---
+
+### Repository Link
+
+https://github.com/Rajesh69960/ShoppyGlobe
+
+---
